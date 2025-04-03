@@ -35,6 +35,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import github_icon from './github_icon.png';
 
 export const assets = {
     user_image,
@@ -73,7 +74,8 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    github_icon
 };
 
 export const workData = [
@@ -89,7 +91,7 @@ export const workData = [
         description: 'A backend project using python fastapi ',
         bgImage: '/work-2.png',
         github_link: 'https://github.com/Manthan03583/socialmedia-backend',
-        project_link: 'https://fastapi.dev.manthanmoharana.click'
+        project_link: 'https://fastapi.dev.manthanmoharana.click/docs'
     },
     
 ]

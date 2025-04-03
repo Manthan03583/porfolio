@@ -50,12 +50,22 @@ const Work = ({isDarkMode}) => {
                                 <h2 className='font-semibold'>{project.title}</h2>
                                 <p className='text-sm text-gray-700'>{project.description}</p>
                             </div>
-                            <div className='border rounded-full border-black w-9 aspect-square flex items-center 
-                            justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                                
-                                <a href={project.github_link}>
-                                    <Image src={assets.send_icon} alt='send icon' className='w-5'/>
-                                </a>
+                            <div className='flex flex-row'>
+                                <div className='border rounded-full border-black w-9 aspect-square flex items-center 
+                                justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+                                    
+                                    <a href={project.project_link}>
+                                        <Image src={assets.send_icon} alt='deployed icon' className='w-5'/>
+                                    </a>
+                                </div>
+
+                                <div className='border rounded-full border-black w-9 aspect-square flex items-center 
+                                justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+                                    
+                                    <a href={project.github_link}>
+                                        <Image src={assets.github_icon} alt='github icon' className='w-5'/>
+                                    </a>
+                                </div>
                             </div>                        
                         </div>
                     </motion.div>
