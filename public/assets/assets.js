@@ -93,6 +93,13 @@ export const workData = [
         github_link: 'https://github.com/Manthan03583/socialmedia-backend',
         project_link: 'https://fastapi.dev.manthanmoharana.click/docs'
     },
+    {
+        title: 'RAG PDF CHATBOT',
+        description: 'Developed a rag chat bot that can answer questions based on pdf uploaded by users and their chat history . ',
+        bgImage: '/work-5.png',
+        github_link: 'https://github.com/Manthan03583/rag-pdf-chatbot',
+        project_link: ''
+    }
     
 ]
 
