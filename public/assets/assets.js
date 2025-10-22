@@ -82,6 +82,7 @@ export const workData = [
     {
         title: 'Zoom Clone',
         description: 'videos streaming platform',
+        longDescription: 'Developed a video conferencing platform with real-time audio/video, screen sharing, and chat functionalities. Implemented user authentication and room management. Technologies used: Next.js, WebRTC, Socket.io.',
         bgImage: '/work-1.png',
         github_link: 'https://github.com/Manthan03583/zoom-clone',
         project_link: 'https://zoom-clone-rouge-psi.vercel.app'
@@ -89,6 +90,7 @@ export const workData = [
     {
         title: 'Social Media Backend',
         description: 'A backend project using python fastapi ',
+        longDescription: 'Built a robust social media backend API using FastAPI, Python, and MongoDB. Features include user authentication, post creation, comments, likes, and follower management. Designed for high performance and scalability.',
         bgImage: '/work-2.png',
         github_link: 'https://github.com/Manthan03583/socialmedia-backend',
         project_link: 'https://fastapi.dev.manthanmoharana.click/docs'
@@ -96,6 +98,7 @@ export const workData = [
     {
         title: 'RAG PDF CHATBOT',
         description: 'Developed a rag chat bot that can answer questions based on pdf uploaded by users and their chat history . ',
+        longDescription: 'Created a Retrieval-Augmented Generation (RAG) chatbot capable of answering user queries based on uploaded PDF documents and maintaining chat history. Utilized natural language processing (NLP) and machine learning models for intelligent responses.',
         bgImage: '/work-5.png',
         github_link: 'https://github.com/Manthan03583/rag-pdf-chatbot',
         project_link: ''
@@ -123,3 +126,16 @@ export const toolsData = [
     assets.figma,
     assets.git
 ];
+
+export const headerData = {
+    introText: "Hello, I'm Manthan Moharana",
+    descriptionText: "A passionate Software Developer crafting elegant solutions and building impactful web experiences. Let's create something amazing together."
+};
+
+export const aboutData = {
+    introParagraph: "With six months of dedicated experience as a Software Developer, I thrive on transforming complex challenges into intuitive and efficient digital solutions. My journey has been marked by collaborations with diverse organizations, where I've contributed to projects that push boundaries and deliver tangible value. I am passionate about clean code, innovative design, and continuous learning."
+};
+
+export const servicesIntro = {
+    introParagraph: "As a versatile Software Developer, I offer a range of services designed to bring your digital ideas to life. My expertise spans across various domains, ensuring high-quality and scalable solutions tailored to your needs."
+};

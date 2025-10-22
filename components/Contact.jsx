@@ -68,42 +68,45 @@ const Contact = () => {
             transition={{duration: 0.9, delay:0.5}}
             onSubmit={onSubmit} className='max-w-2xl mx-auto'>
             <div className='grid grid-cols-auto gap-6 mt-10 mb-8'>
-
+                <label htmlFor="name" className="sr-only">Your Name</label>
                 <motion.input 
                     initial={{x: -50, opacity: 0}}
                     whileInView={{x: 0, opacity: 1}}
                     transition={{duration: 1.1, delay:0.6}}
                     type="text" placeholder='Enter your name' required
-                    className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white
-                    dark:bg-darkHover/30 dark:border-white/90'
-                    name='name'/>
+                    className='flex-1 p-3 outline-none border-[0.5px] border-secondaryText/30 rounded-md bg-lightBackground
+                    dark:bg-darkHover/30 dark:border-primaryText/90'
+                    name='name' id="name"/>
 
+                <label htmlFor="email" className="sr-only">Your Email</label>
                 <motion.input 
                     initial={{x: 50, opacity: 0}}
                     whileInView={{x: 0, opacity: 1}}
                     transition={{duration: 1.1, delay:0.6}}
                     type="email" placeholder='Enter your email' required
-                    className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white
-                    dark:bg-darkHover/30 dark:border-white/90'
-                    name='email'/>
+                    className='flex-1 p-3 outline-none border-[0.5px] border-secondaryText/30 rounded-md bg-lightBackground
+                    dark:bg-darkHover/30 dark:border-primaryText/90'
+                    name='email' id="email"/>
             </div>
+            <label htmlFor="message" className="sr-only">Your Message</label>
             <motion.textarea 
                 initial={{y: 100, opacity: 0}}
                 whileInView={{y: 0, opacity: 1}}
                 transition={{duration: 1.3, delay:0.6}}
                 rows='6' placeholder='Enter your message' required
-                className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6
-                dark:bg-darkHover/30 dark:border-white/90'
-                name='message'></motion.textarea>
+                className='w-full p-4 outline-none border-[0.5px] border-secondaryText/30 rounded-md bg-lightBackground mb-6
+                dark:bg-darkHover/30 dark:border-primaryText/90'
+                name='message' id="message"></motion.textarea>
 
             <motion.button 
                 whileHover={{scale: 0.05}}
                 transition={{duration: 0.3}}
                 type='submit'
-                className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white 
-                rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] 
-                dark:hover:bg-darkHover'>
-            Submit now <Image src={assets.right_arrow_white} alt=''className='w-4'/></motion.button>
+                className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-secondaryText/80 text-primaryText 
+                rounded-full mx-auto hover:bg-secondaryText duration-500 dark:bg-transparent dark:border-[0.5px] 
+                dark:hover:bg-darkHover'
+                aria-label="Submit contact form">
+            Submit now <Image src={assets.right_arrow_white} alt='Send icon' className='w-4'/></motion.button>
 
             <p className='mt-4'>{result}</p>
         </motion.form>
