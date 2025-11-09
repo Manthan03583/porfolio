@@ -50,7 +50,7 @@ const Header = () => {
                 initial={{y: 30, opacity: 0}}
                 whileInView={{y: 0, opacity: 1}}
                 transition={{duration: 0.6, delay:1.2}} 
-                href="https://drive.google.com/file/d/16o9rYZ9gvCJXJgnCgNNQLRGx7BlbbYpJ/view?usp=sharing" download 
+                href="https://drive.google.com/file/d/1WNdi57LxLd6mTL15tEaX_AGrqK1Y1H4u/view?usp=sharing" download 
                 className='px-10 py-3 border rounded-full border-secondaryText/50 flex 
                 items-center gap-2 bg-lightBackground dark:text-secondaryText dark:border-primaryText/50' aria-label="Download my resume">
                     my resume <Image src={assets.download_icon} alt='Download icon' className='w-4'/> 
