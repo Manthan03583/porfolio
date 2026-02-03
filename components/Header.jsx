@@ -1,5 +1,4 @@
 import { assets, headerData } from '@/public/assets/assets'
-import resume from '@/public/resume/resume.html'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
@@ -51,10 +50,10 @@ const Header = () => {
                 initial={{y: 30, opacity: 0}}
                 whileInView={{y: 0, opacity: 1}}
                 transition={{duration: 0.6, delay:1.2}} 
-                href={resume} download 
+                href={assets.resume} target="_blank" rel="noopener noreferrer"
                 className='px-10 py-3 border rounded-full border-secondaryText/50 flex 
-                items-center gap-2 bg-lightBackground dark:text-secondaryText dark:border-primaryText/50' aria-label="Download my resume">
-                    my resume <Image src={assets.download_icon} alt='Download icon' className='w-4'/> 
+                items-center gap-2 bg-lightBackground dark:text-secondaryText dark:border-primaryText/50' aria-label="View my resume">
+                    view resume <Image src={assets.arrow_icon} alt='Arrow icon' className='w-4'/> 
             </motion.a>
         </div>
 

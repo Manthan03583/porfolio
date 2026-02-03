@@ -36,8 +36,10 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import github_icon from './github_icon.png';
+const resume = '/resume.html';
 
 export const assets = {
+    resume,
     user_image,
     code_icon,
     code_icon_dark,
