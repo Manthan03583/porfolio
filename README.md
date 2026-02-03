@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="./public/assets/profile-img.png" alt="Manthan Moharana's Profile" width="150" />
+  <h1><strong>Manthan Moharana's Portfolio</strong></h1>
+  <p>
+    This is the source code for my personal portfolio website, showcasing my projects, skills, and experience as a Software Developer.
+  </p>
+  <p>
+    <a href="https://manthanmoharana.click/"><strong>✨ View Live Demo »</strong></a>
+  </p>
+  <br />
+</div>
 
-## Getting Started
+## 🚀 Built With
 
-First, run the development server:
+This project is built with a modern tech stack to deliver a fast, responsive, and engaging user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   **Frontend:**
+    -   ![Next.js](https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
+    -   ![Tailwind CSS](https://img.shields.io/badge/tailwind_css-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+    -   ![Framer Motion](https://img.shields.io/badge/framer_motion-%230055FF.svg?style=for-the-badge&logo=framer&logoColor=white)
+-   **Deployment:**
+    -   ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
+## 🛠️ Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+*   **Node.js** (v18 or later)
+*   **npm**
+
+### Installation
+
+1.  **Clone the repo**
+    ```sh
+    git clone https://github.com/Manthan03583/porfolio.git
+    ```
+2.  **Navigate to the project directory**
+    ```sh
+    cd porfolio
+    ```
+3.  **Install NPM packages**
+    ```sh
+    npm install
+    ```
+4.  **Run the development server**
+    ```sh
+    npm run dev
+    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Project Structure
 
-## Learn More
+The project follows the standard Next.js App Router structure.
 
-To learn more about Next.js, take a look at the following resources:
+```
+.
+├── app/                  # Main application folder (App Router)
+│   ├── page.js           # Main page component
+│   └── layout.js         # Root layout
+├── components/           # Reusable components (About, Contact, Header, etc.)
+├── public/               # Static assets (images, resume, etc.)
+├── .gitignore            # Files to be ignored by Git
+├── next.config.mjs       # Next.js configuration
+├── package.json          # Project dependencies and scripts
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contributing
 
-## Deploy on Vercel
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Manthan03583/porfolio/issues).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📧 Contact
+
+-   **Manthan Moharana**
+-   **Project Link:** [https://github.com/Manthan03583/porfolio](https://github.com/Manthan03583/porfolio)
