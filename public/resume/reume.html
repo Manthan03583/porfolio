@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manthan Moharana - Product Focused Software Engineer</title>
+    <style>
+        :root {
+            --primary: #2d3436;
+            --accent: #0984e3;
+            --text: #636e72;
+            --light: #f5f6fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            color: var(--primary);
+            background: #e1e1e1;
+            margin: 0;
+            padding: 40px 0;
+        }
+
+        .resume-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 2px solid var(--light);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 28px;
+            color: black;
+        }
+
+        .subtitle {
+            color: var(--accent);
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 13px;
+            color: var(--text);
+        }
+
+        .contact-info a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+
+        .contact-info a:hover {
+            border-bottom: 1px solid var(--accent);
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 16px;
+            text-transform: uppercase;
+            color: black;
+            border-left: 4px solid var(--accent);
+            padding-left: 10px;
+            margin-bottom: 15px;
+            background: var(--light);
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .summary {
+            font-size: 14.5px;
+            color: var(--primary);
+        }
+
+        .job-title-row {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .company { color: var(--accent); }
+        .date { color: var(--text); font-weight: normal; }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 13.5px;
+        }
+
+        .skill-item b { color: black; }
+
+        ul {
+            padding-left: 18px;
+            margin-top: 5px;
+        }
+
+        li {
+            font-size: 14px;
+            margin-bottom: 6px;
+            color: var(--primary);
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: 15px;
+            display: block;
+        }
+
+        .tagline {
+            font-style: italic;
+            font-size: 13px;
+            color: var(--text);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        @media print {
+            body { background: white; padding: 0; }
+            .resume-container { box-shadow: none; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <header>
+        <h1>Manthan Moharana</h1>
+        <div class="subtitle">Product Focused Software Engineer</div>
+        <div class="contact-info">
+            <span>📍 Bhubaneswar, Odisha, India</span>
+            <span>📞 +91 8144964109</span>
+            <span>✉️ <a href="mailto:manthanmoharana03583@gmail.com">manthanmoharana03583@gmail.com</a></span>
+            <span>🔗 <a href="https://www.linkedin.com/in/manthanmoharana/">LinkedIn</a></span>
+            <span>🔗 <a href="https://github.com/Manthan03583">GitHub</a></span>
+            <span>🔗 <a href="https://manthanmoharana.click/">Portfolio</a></span>
+        </div>
+    </header>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p class="summary">
+            High-aptitude Full-Stack Engineer (2023 Grad) specialized in <b>Product Growth and rapid asset optimization.</b> Experienced in building end-to-end applications with Python (FastAPI), Flutter, and React. Focused on evaluating tech stacks for scalability, improving user onboarding, and implementing AI-driven features to increase business value. Thrives in high-ownership, unstructured environments with a bias toward action.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-item"><b>Engineering:</b> Python (FastAPI), TS/JS, Flutter, React, SQL.</div>
+            <div class="skill-item"><b>Infrastructure:</b> AWS (EC2), Docker, NGINX, CI/CD.</div>
+            <div class="skill-item"><b>Product & Growth:</b> UX Optimization, Monetization, RAG/AI.</div>
+            <div class="skill-item"><b>Databases:</b> PostgreSQL, ChromaDB (Vector Search).</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+        <div class="job-title-row">
+            <span>Software Engineer (Trainee) - <span class="company">Edevlop Services Pvt Ltd</span></span>
+            <span class="date">June 2023 – Nov 2023</span>
+        </div>
+        <ul>
+            <li>Engineered and launched a high-quality Android application using Flutter, focusing on a <b>seamless user onboarding experience</b> to drive early engagement.</li>
+            <li>Collaborated on API specifications to reduce frontend-to-backend latency, directly improving <b>user retention metrics.</b></li>
+            <li>Managed the full SDLC with minimal supervision, demonstrating the ability to own product delivery from concept to production.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Key Product Projects</h2>
+        
+        <span class="project-title">RAG AI Engine (Contextual Search Optimization)</span>
+        <span class="tagline">Gemini LLM, Langchain, ChromaDB</span>
+        <ul>
+            <li>Developed a Retrieval-Augmented Generation (RAG) system to transform static PDF data into an interactive AI asset, increasing product "stickiness."</li>
+            <li>Optimized data indexing speed and query accuracy, focusing on user-perceived performance—a key factor for <b>product conversion.</b></li>
+        </ul>
+
+        <span class="project-title">Scalable Social Media Backend (Growth-Ready)</span>
+        <span class="tagline">FastAPI, Docker, AWS, GitHub Actions</span>
+        <ul>
+            <li>Architected a robust backend designed for high-traffic scenarios, implementing a production-ready CI/CD pipeline for rapid iteration.</li>
+            <li>Focused on database integrity and secure JWT authentication, ensuring the asset is ready for <b>technical due diligence and scaling.</b></li>
+        </ul>
+
+        <span class="project-title">Real-Time Video Platform (UX Performance)</span>
+        <span class="tagline">React, Node.js, WebRTC</span>
+        <ul>
+            <li>Built a full-stack media platform focusing on low-latency signaling to ensure a premium UX, understanding that performance is the primary feature for retention.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Education & Credentials</h2>
+        <div class="job-title-row">
+            <span>B.Tech in Computer Science - <span class="company"> Sambalpur University Institute of Information Technology</span></span>
+            <span class="date">Graduated 2023 | 72.63%</span>
+        </div>
+        <p style="font-size: 13px; margin-top: 5px;">
+            <b>Certifications:</b> Google Python Crash Course, IIT Python Programming Workshop.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
