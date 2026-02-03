@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="./public/assets/profile-img.png" alt="Manthan Moharana's Profile" width="150" />
   <h1><strong>Manthan Moharana's Portfolio</strong></h1>
   <p>
     This is the source code for my personal portfolio website, showcasing my projects, skills, and experience as a Software Developer.
